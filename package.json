@@ -1,0 +1,20 @@
+{
+  "name": "api-load-tester",
+  "version": "1.0.0",
+  "description": "API load testing tool with live terminal dashboard",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node --esm src/index.ts"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "undici": "^6.19.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
